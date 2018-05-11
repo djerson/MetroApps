@@ -1,3 +1,3 @@
 # Metro Apps
 
-Demos at: https://github.com/djerson/metro_ppps
+Demos at: https://djerson.github.io/metro_ppps/
