@@ -1,0 +1,46 @@
+{
+  "Groups": [
+    {
+      "name" : "Server apps",
+      "apps" : [
+        {
+          "name" : "apps 1",
+          "icon" : "fa-server",
+          "dimension" : "md",
+          "description" : "desc apps 1",
+          "url" : "http://localhost",
+          "bg" : "#107C10"
+        },
+        {
+          "name" : "apps 2",
+          "icon" : "fa-database",
+          "dimension" : "lg",
+          "description" : "desc apps 2",
+          "url" : "#",
+          "bg" : "#0078D7"
+        }
+      ]
+    },
+    {
+      "name" : "My apps",
+      "apps" : [
+        {
+          "name" : "my apps 1",
+          "icon" : "fa-address-book",
+          "dimension" : "xl",
+          "description" : "desc my apps 1",
+          "url" : "#",
+          "bg" : "#7719AA"
+        },
+        {
+          "name" : "my apps 2",
+          "icon" : "fa-credit-card",
+          "dimension" : "sm",
+          "description" : "desc my apps 2",
+          "url" : "#",
+          "bg" : "#DC3C00"
+        }
+      ]
+    }
+  ]
+}

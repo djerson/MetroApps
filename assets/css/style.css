@@ -1,0 +1,165 @@
+/**
+ * Created by Djerson on 09/05/2018.
+ */
+body{
+    background-color: #333;
+    color: #fff;
+}
+
+#content{
+    display: none;
+}
+
+input,select{
+    border-radius: 0 !important;
+}
+
+.btn-no-radius{
+    border-radius: 0 !important;
+    height: 34px;
+}
+
+#loader{
+    color: #ffffff;
+    margin: 250px auto;
+    width: 100px;
+}
+
+#apps-version{
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover,a:active,a:after,a:focus{
+    text-decoration: none;
+    color: #fff;
+}
+
+.title{
+    position: fixed;
+    z-index: 10000;
+    background-color: #333333;
+}
+
+.toolsbar{
+    margin-right: 100px;
+}
+
+
+.page {
+    width: auto;
+    height: auto;
+    margin-top: 80px;
+}
+
+.group-tile{
+    margin-right: 25px;
+    float: left;
+    display: inline;
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 400px;
+}
+
+.group-tile-header{
+    padding: 10px;
+    font-size: large;
+}
+
+.group-tile-item{
+    padding: 10px;
+    font-size: large;
+    list-style: none;
+}
+
+.tile{
+    background-color: #2aabd2;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 4px;
+    border: 2px solid rgba(0,0,0,00);
+}
+
+.tile:hover{
+    border: 2px solid rgba(255,255,255,0.5);
+}
+
+.tile-sm{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.tile-md{
+    width: 100px;
+    height: 100px;
+}
+
+.tile-icon{
+    text-align: center;
+}
+
+.tile-lg{
+    width: 200px;
+    height: 100px;
+}
+
+.tile-xl{
+    width: 200px;
+    height: 200px;
+}
+
+.tile-xl > .tile-icon{
+    padding: 30px;
+}
+
+#setting-dialog{
+    position: absolute;
+    top: 0;
+    background-color: rgba(0,0,0,0.8);
+    display: none;
+    height: 100%;
+    min-height: 100px;
+    width: 100%;
+    z-index: 10000000;
+}
+
+.dialog{
+    width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+}
+
+.dialog-header{
+    background-color: #2aabd2;
+    height: 40px;
+}
+
+.dialog-header-title{
+    line-height: 40px;
+    padding-left: 10px;
+    width: 100px;
+    float: left;
+    display: block;
+}
+
+.dialog-footer{
+    padding: 0 20px 10px 20px;
+}
+
+.dialog-body{
+    padding: 20px;
+    color: #000;
+}
+
+.tab-content{
+    padding-top: 20px;
+}
+
+.nav a{
+    color: #333333;
+}

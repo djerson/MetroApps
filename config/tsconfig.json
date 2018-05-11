@@ -1,0 +1,15 @@
+{
+  "Application": {
+    "name": "Metro Apps",
+    "version": "1.1",
+    "developer": "Djerson Clément"
+  },
+  "Settings": {
+    "installed": true,
+    "login": false,
+    "Themes":{
+      "backgroud": "#33333",
+      "hightligth": "#00aba9"
+    }
+  }
+}
