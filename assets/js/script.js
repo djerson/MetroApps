@@ -4,7 +4,7 @@
 
 $(document).ready(function () {
 
-    $.getJSON('../../config/tsconfig.json', function (config) {
+    $.getJSON(window.location.href+'config/tsconfig.json', function (config) {
         console.log(config)
         if(!config.Settings.login)
         {
@@ -13,7 +13,7 @@ $(document).ready(function () {
             $("#apps-title").text(config.Application.name);
             $("#apps-version").text(config.Application.version);
 
-            $.getJSON('../../config/datas.json', function (datas) {
+            $.getJSON(window.location.href+'config/datas.json', function (datas) {
                 console.log(datas);
                 var html_data = "";
                 for(var i=0; i< datas.Groups.length; i++)
