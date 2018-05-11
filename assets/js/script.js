@@ -4,7 +4,11 @@
 
 $(document).ready(function () {
 
+<<<<<<< HEAD
     $.getJSON(window.location.href+'config/tsconfig.json', function (config) {
+=======
+    $.getJSON('../config/tsconfig.json', function (config) {
+>>>>>>> 23b48556863474046f9a74bbb2fff629dc0d8e02
         console.log(config)
         if(!config.Settings.login)
         {
