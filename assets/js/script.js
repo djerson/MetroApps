@@ -4,7 +4,7 @@
 
 $(document).ready(function () {
 
-    $.getJSON('../../config/tsconfig.json', function (config) {
+    $.getJSON('../config/tsconfig.json', function (config) {
         console.log(config)
         if(!config.Settings.login)
         {
